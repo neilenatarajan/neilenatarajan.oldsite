@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://neilenatarajan.github.io",
   "dependencies": {
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "sass": "^1.22.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,6 +34,11 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
     "gh-pages": "^2.0.1"
   }
 }
