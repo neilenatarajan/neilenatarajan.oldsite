@@ -1,5 +1,4 @@
 import React from 'react';
-import './Nametag.scss';
 
 function Nametag() {
   return (

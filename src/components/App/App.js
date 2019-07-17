@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import Nametag from './Nametag';
-import './App.scss';
+import Header from '../Header/Header';
+import Nametag from '../Nametag/Nametag';
 
 function App() {
   return (
