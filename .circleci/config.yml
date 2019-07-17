@@ -1,0 +1,38 @@
+version: 2
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:8
+  branches:
+    only:
+      - dev
+
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      # install dependencies
+      - run: yarn install
+      # set github name
+      - run:
+          name: Install and configure dependencies
+          command: |
+            git config --global user.email "neilenatarajan@gmail.com"
+            git config --global user.name "neilenatarajan"
+      # cache dependencies for efficiency
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      # run jest suite
+      - run: yarn test
+      # deploy to master branch
+      - run: yarn deploy
