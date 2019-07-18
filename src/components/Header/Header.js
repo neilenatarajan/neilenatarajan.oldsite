@@ -1,10 +1,10 @@
 import React from 'react';
-import NavItem from '../NavItem/NavItem';
+import NavBar from '../NavBar/NavBar';
 
 function Header() {
   return (
     <header className="header">
-      <NavItem pageName="About Me" to="about" />
+      <NavBar />
     </header>
   );
 }

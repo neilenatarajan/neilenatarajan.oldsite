@@ -1,10 +1,32 @@
+@import 'resources/colors';
+
 .header {
-  display: flex;
+  display: block;
   background-color: transparent;
-  min-height: 80px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  li {
+    height: 100%;
+    float: right;
+    color: transparent;
+
+    a {
+      display: block;
+      padding: 10px;
+      border: 2px;
+      color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: rgba($primary-color-light, .3);
+      color: black;
+    }
+  }
 }
