@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+.text {
+  stroke: #222222;
+  fill: #645F5A;
+}
+
 .nametag {
   pointer-events: none;
   width: 100%;
@@ -8,7 +13,7 @@
   svg {
     width: 40%;
     fill: none;
-    stroke: white;
+    stroke: #222222;
     stroke-width: 4;
     
     tspan > tspan {
