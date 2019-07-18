@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home';
+import NavItem from './NavItem';
 import { StaticRouter as TestRouter } from "react-router-dom";
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<TestRouter><Home /></TestRouter>, div);
+  ReactDOM.render(<TestRouter><NavItem pageName="test" to="test"/></TestRouter>, div);
   ReactDOM.unmountComponentAtNode(div);
 });

@@ -6,7 +6,7 @@ function Nametag() {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 800">
         <title>Neil Natarajan</title>
         <g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
-          <text id="nametag" className="text" fontWeight="normal" fontFamily="Indie Flower" cursive fontSize="144">
+          <text id="nametag" className="text" fontWeight="normal" fontFamily="Indie Flower" fontSize="144">
             <tspan x="3" y="109">
               <tspan>h</tspan>
               <tspan>i</tspan>

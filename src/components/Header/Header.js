@@ -1,17 +1,10 @@
 import React from 'react';
+import NavItem from '../NavItem/NavItem';
 
 function Header() {
   return (
     <header className="header">
-      <a
-        className="link"
-        href="https://neilenatarajan.github.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        This is a Header Link
-
-      </a>
+      <NavItem pageName="About Me" to="about" />
     </header>
   );
 }
