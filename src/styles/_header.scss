@@ -1,15 +1,35 @@
-@import 'resources/colors';
+@import 'globals/colors';
 
 .header {
-  display: block;
+  display: grid;
   background-color: transparent;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.sociallink {
+  color: $secondary-color
+}
+
+@for $i from 1 through 4 {
+  .sociallink:nth-of-type(#{$i}) {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: $i;
+    grid-row-end: span 1;
+  }
 }
 
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  grid-column-start: 2;
+  grid-column-end: span;
+  grid-row-start: 1;
+  grid-row-end: span 4;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   
   li {
     height: 100%;
@@ -19,14 +39,13 @@
     a {
       display: block;
       padding: 10px;
-      border: 2px;
       color: transparent;
       text-decoration: none;
     }
 
     a:hover {
-      background-color: rgba($primary-color-light, .3);
-      color: black;
+      background-color: rgba($secondary-color, .1);
+      color: rgba($secondary-color, .8);
     }
   }
 }

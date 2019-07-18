@@ -15,26 +15,25 @@
   
   svg {
     width: 40%;
+    max-width: 600px;
     fill: none;
     stroke: #222222;
     stroke-width: 4;
     
-    tspan > tspan {
-      stroke-dasharray: 1500;
-      stroke-dashoffset: -1500;
-      
-      @for $i from 1 through 20 {
-        
-        &:nth-of-type(#{$i}) {
-          animation: draw 300ms #{$i * 150}ms forwards;
+    @for $i from 1 through 2 {
+      tspan:nth-of-type(#{$i}) > tspan {
+        stroke-dasharray: 1500;
+        stroke-dashoffset: -1500;
+
+        @for $j from 1 through 20 {
+          
+          &:nth-of-type(#{$j}) {
+            animation: draw 300ms #{($i - 1) * 3000 + $j * 150}ms forwards;
+          } 
         }
-        
       }
-      
     }
-    
   }
-  
 }
 
 @keyframes draw {
