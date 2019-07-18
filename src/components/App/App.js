@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Link } from "react-router-dom";
 import Header from '../Header/Header';
-import Nametag from '../Nametag/Nametag';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Writing from '../Writing/Writing';
