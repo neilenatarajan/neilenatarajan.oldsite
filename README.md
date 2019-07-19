@@ -16,7 +16,7 @@ and is the recommended branch to work from.
 
 The below instructions will help set up the `dev` branch.
 
-### `yarn`
+### Installing
 
 After cloning the `dev` branch, run `yarn` or `yarn install` to install dependencies.
 
