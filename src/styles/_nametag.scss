@@ -20,7 +20,7 @@
     stroke: #222222;
     stroke-width: 4;
     
-    @for $i from 1 through 2 {
+    @for $i from 1 through 4 {
       tspan:nth-of-type(#{$i}) > tspan {
         stroke-dasharray: 1500;
         stroke-dashoffset: -1500;

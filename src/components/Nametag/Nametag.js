@@ -51,6 +51,50 @@ function Nametag() {
               <tspan>!</tspan>
               <tspan>!</tspan>
             </tspan>
+            <tspan x="3" y="427">
+              <tspan>I</tspan>
+              <tspan>'</tspan>
+              <tspan>m</tspan>
+              <tspan> </tspan>
+              <tspan>n</tspan>
+              <tspan>o</tspan>
+              <tspan>t</tspan>
+              <tspan> </tspan>
+              <tspan>d</tspan>
+              <tspan>o</tspan>
+              <tspan>n</tspan>
+              <tspan>e</tspan>
+              <tspan> </tspan>
+              <tspan>y</tspan>
+              <tspan>e</tspan>
+              <tspan>t</tspan>
+              <tspan>,</tspan>
+              <tspan> </tspan>
+              <tspan>s</tspan>
+              <tspan>o</tspan>
+            </tspan>
+            <tspan x="3" y="586">
+              <tspan>p</tspan>
+              <tspan>l</tspan>
+              <tspan>e</tspan>
+              <tspan>a</tspan>
+              <tspan>s</tspan>
+              <tspan>e</tspan>
+              <tspan> </tspan>
+              <tspan>r</tspan>
+              <tspan>e</tspan>
+              <tspan>t</tspan>
+              <tspan>u</tspan>
+              <tspan>r</tspan>
+              <tspan>n</tspan>
+              <tspan> </tspan>
+              <tspan>l</tspan>
+              <tspan>a</tspan>
+              <tspan>t</tspan>
+              <tspan>e</tspan>
+              <tspan>r</tspan>
+              <tspan>.</tspan>
+            </tspan>
           </text>
         </g>
       </svg>
