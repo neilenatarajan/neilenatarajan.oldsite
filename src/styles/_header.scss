@@ -7,19 +7,6 @@
   grid-template-rows: 25% 25% 25% 25%;
 }
 
-.sociallink {
-  color: $secondary-color
-}
-
-@for $i from 1 through 4 {
-  .sociallink:nth-of-type(#{$i}) {
-    grid-column-start: 1;
-    grid-column-end: span 1;
-    grid-row-start: $i;
-    grid-row-end: span 1;
-  }
-}
-
 .navbar {
   grid-column-start: 2;
   grid-column-end: span;

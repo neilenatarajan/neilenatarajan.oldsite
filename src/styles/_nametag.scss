@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import 'globals/colors';
 
 .text {
-  stroke: #222222;
-  fill: #645F5A;
+  stroke: $secondary-color;
   font-weight: normal;
   font-family: "Indie Flower", cursive;
   font-size: 144px;
