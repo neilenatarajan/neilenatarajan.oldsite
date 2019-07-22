@@ -1,17 +1,13 @@
 @import 'globals/colors';
 
 .header {
+  position: fixed;
   display: grid;
   background-color: transparent;
-  grid-template-columns: 50px auto;
-  grid-template-rows: 25% 25% 25% 25%;
+  width: 100%;
 }
 
 .navbar {
-  grid-column-start: 2;
-  grid-column-end: span;
-  grid-row-start: 1;
-  grid-row-end: span 4;
   list-style-type: none;
 
   margin: 0;
