@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Nametag() {
+function Namecard() {
   return (
-    <div className="nametag pagecard">
+    <div className="namecard pagecard">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 450">
-        <title>Nametag</title>800
+        <title>Namecard</title>800
         <g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
-          <text id="nametag" className="handwritten">
+          <text id="namecard" className="handwritten">
           <tspan x="3" y="109">
               <tspan>h</tspan>
               <tspan>i</tspan>
@@ -58,4 +58,4 @@ function Nametag() {
   );
 }
 
-export default Nametag;
+export default Namecard;

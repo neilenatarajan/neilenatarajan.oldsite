@@ -1,22 +1,17 @@
 import React from 'react';
-import Nametag from '../Nametag/Nametag';
+import Namecard from '../Namecard/Namecard';
 import WIP from '../WIP/WIP';
 import Header from '../Header/Header';
+import Photocard from '../Photocard/Photocard';
 
 function Home() {
   return (
     <div>
       <Header />
       <div className="homepage">
-        <Nametag />
+        <Namecard />
         <WIP />
-        <WIP />
-        <WIP />
-        <WIP />
-        <WIP />
-        <WIP />
-        <WIP />
-        <WIP />
+        <Photocard />
       </div>
     </div>
   );

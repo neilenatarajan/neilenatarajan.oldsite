@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import 'globals/colors';
 
-.wiptag {
+.wipcard {
   pointer-events: none;
   width: 100%;
   height: 100vh;
@@ -15,7 +15,7 @@
     stroke: #222222;
     stroke-width: 4;
     
-    @for $i from 1 through 4 {
+    @for $i from 1 through 5 {
       tspan:nth-of-type(#{$i}) > tspan {
         stroke-dasharray: 1500;
         stroke-dashoffset: -1500;
@@ -23,7 +23,7 @@
         @for $j from 1 through 20 {
           
           &:nth-of-type(#{$j}) {
-            animation: draw 300ms #{($i - 1) * 3000 + $j * 150}ms forwards;
+            animation: draw 200ms #{($i - 1) * 2000 + $j * 100}ms forwards;
           } 
         }
       }

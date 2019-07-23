@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import 'globals/colors', 'globals/fonts';
 
-.nametag {
+.namecard {
   pointer-events: none;
   
   svg {
@@ -21,7 +21,7 @@
         @for $j from 1 through 20 {
           
           &:nth-of-type(#{$j}) {
-            animation: draw 300ms #{($i - 1) * 3000 + $j * 150}ms forwards;
+            animation: draw 200ms #{($i - 1) * 2000 + $j * 100}ms forwards;
           } 
         }
       }
