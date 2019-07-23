@@ -4,10 +4,11 @@ function Namecard() {
   return (
     <div className="namecard pagecard">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 450">
-        <title>Namecard</title>800
+        <title>Namecard</title>
+800
         <g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
           <text id="namecard" className="handwritten">
-          <tspan x="3" y="109">
+            <tspan x="3" y="109">
               <tspan>h</tspan>
               <tspan>i</tspan>
               <tspan>,</tspan>
@@ -49,7 +50,6 @@ function Namecard() {
               <tspan>t</tspan>
               <tspan>e</tspan>
               <tspan>!</tspan>
-              <tspan>&nbsp;</tspan>
             </tspan>
           </text>
         </g>

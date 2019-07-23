@@ -11,7 +11,7 @@ function Home() {
       <div className="homepage">
         <Namecard />
         <WIP />
-        <Photocard />
+        <Photocard src="none" />
       </div>
     </div>
   );

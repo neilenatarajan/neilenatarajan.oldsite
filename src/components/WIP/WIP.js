@@ -7,7 +7,7 @@ function WIP() {
         <title>WIP Tag</title>
         <g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
           <text id="wipcard" className="handwritten">
-          <tspan x="3" y="109">
+            <tspan x="3" y="109">
               <tspan>T</tspan>
               <tspan>h</tspan>
               <tspan>a</tspan>
@@ -38,7 +38,7 @@ function WIP() {
               <tspan>,</tspan>
               <tspan> </tspan>
               <tspan>I</tspan>
-              <tspan>'</tspan>
+              <tspan>&#39;</tspan>
               <tspan>m</tspan>
               <tspan> </tspan>
               <tspan>n</tspan>
@@ -61,7 +61,7 @@ function WIP() {
               <tspan>e</tspan>
               <tspan>t</tspan>
               <tspan>.</tspan>
-              <tspan> </tspan> 
+              <tspan> </tspan>
               <tspan>F</tspan>
               <tspan>e</tspan>
               <tspan>e</tspan>

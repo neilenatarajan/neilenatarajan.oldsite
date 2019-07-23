@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { StaticRouter as TestRouter, } from 'react-router-dom';
 import Writing from './Writing';
-import { StaticRouter as TestRouter } from "react-router-dom";
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "extends": "airbnb",
   "globals": {
@@ -20,7 +21,9 @@
   },
   "plugins": [
     "react",
-    "jest"
+    "jest",
+    "jsx-a11y",
+    "import"
   ],
   "rules": {
     "indent": [2, 2, {"SwitchCase": 1}],
@@ -33,6 +36,7 @@
     "no-use-before-define": [2, "nofunc"],
     "react/jsx-filename-extension": [0],
     "react/forbid-prop-types": [0],
+    "react/no-array-index-key": [1],
     "no-trailing-spaces": [1]
   }
 }
