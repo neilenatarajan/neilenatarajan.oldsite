@@ -1,5 +1,6 @@
 import React from 'react';
 import Nametag from '../Nametag/Nametag';
+import WIP from '../WIP/WIP';
 import Header from '../Header/Header';
 
 function Home() {
@@ -8,14 +9,14 @@ function Home() {
       <Header />
       <div className="homepage">
         <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
-        <Nametag />
+        <WIP />
+        <WIP />
+        <WIP />
+        <WIP />
+        <WIP />
+        <WIP />
+        <WIP />
+        <WIP />
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import 'globals/colors', 'globals/fonts';
+@import 'globals/colors';
 
-.nametag {
+.wiptag {
   pointer-events: none;
+  width: 100%;
+  height: 100vh;
   
   svg {
     height: 100%;
@@ -13,7 +15,7 @@
     stroke: #222222;
     stroke-width: 4;
     
-    @for $i from 1 through 2 {
+    @for $i from 1 through 4 {
       tspan:nth-of-type(#{$i}) > tspan {
         stroke-dasharray: 1500;
         stroke-dashoffset: -1500;
