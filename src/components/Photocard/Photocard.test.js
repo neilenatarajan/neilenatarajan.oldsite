@@ -5,6 +5,6 @@ import Photocard from './Photocard';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<TestRouter><Photocard /></TestRouter>, div);
+  ReactDOM.render(<TestRouter><Photocard src="n/a" /></TestRouter>, div);
   ReactDOM.unmountComponentAtNode(div);
 });

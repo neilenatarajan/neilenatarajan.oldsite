@@ -5,7 +5,6 @@ function Namecard() {
     <div className="namecard pagecard">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 450">
         <title>Namecard</title>
-800
         <g stroke="none" fill="none" fillRule="evenodd" fillOpacity="0">
           <text id="namecard" className="handwritten">
             <tspan x="3" y="109">

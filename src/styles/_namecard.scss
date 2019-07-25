@@ -3,15 +3,17 @@
 
 .namecard {
   pointer-events: none;
-  
+  grid-template-columns: auto minmax(min-content, 550px) auto;
+  grid-template-rows: auto 200px auto;
+
   svg {
-    height: 100%;
-    width: 100%;
+    grid-column-start: 2;
+    grid-row-start: 2;
     max-width: 600px;
     min-width: 300px;
     fill: none;
-    stroke: #222222;
     stroke-width: 4;
+    margin: 20px;
     
     @for $i from 1 through 2 {
       tspan:nth-of-type(#{$i}) > tspan {

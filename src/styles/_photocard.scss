@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import 'globals/colors', 'globals/fonts';
+
+.photocard {
+  grid-template-columns: auto;
+  grid-template-rows: auto 50vh auto;
+}
+
+.photogallery {
+  grid-row-start: 2;
+  background-color: $secondary-color;
+  box-shadow: 0 5px 30px 5px mix($primary-color, $secondary-color, 60%),
+    0 -5px 30px 5px mix($primary-color, $secondary-color, 60%);
+}
