@@ -35,7 +35,4 @@ jobs:
       # run jest suite
       - run: yarn test
       # deploy to master branch
-      - add_ssh_keys:
-          fingerprints:
-            - "15:45:1a:53:fa:d9:34:fe:69:00:61:99:c9:5f:27:14"
       - run: yarn deploy
