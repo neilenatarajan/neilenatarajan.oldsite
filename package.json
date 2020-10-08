@@ -10,7 +10,8 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "sass": "^1.22.5"
+    "sass": "^1.22.5",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "PORT=6969 react-scripts start",
